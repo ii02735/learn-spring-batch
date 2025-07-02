@@ -9,5 +9,3 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
-    job:
-      enabled: false # on ne souhaite pas que tous les jobs se lancent au d�marrage de l'application
