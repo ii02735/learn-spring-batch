@@ -6,15 +6,6 @@ spring:
     username: sa
     password: sa
     driver-class-name: org.h2.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: false
-    properties:
-      hibernate:
-        show_sql: false
-    database: batch
-    database-platform: org.hibernate.dialect.H2Dialect
   batch:
     jdbc:
       initialize-schema: always
